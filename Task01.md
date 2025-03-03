@@ -13,6 +13,9 @@ As we will see We will use Docker to install Almalinux 9 on Windows.
 ### 1 INSTALL DOCKER
 The first step is to download Docker from theyr official site, you  can find it [here](https://www.docker.com/). Move over the "Download Docker Desktop" button and choose the Windows option. The Download should start automatically. At the end of the download run the downloaded file and wait for the installation.\
 At the end of the Installation it will ask you to restart  Windows. 
+The program will now ask you to create an account (or you can use the GitHub account that you should have  from the beginning of this course) and then you're read to go.
+
+For learning about Docker: basic concepts, how to set up the environment, running containers and more, consider checking this [site](https://docs.docker.com/get-started/). 
 
 
 
