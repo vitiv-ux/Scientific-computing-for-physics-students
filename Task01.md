@@ -7,7 +7,7 @@ In your life, it might happen that you choose to follow a course on scientific c
 
 ## Introduction
 Before continuing with the steps to complete the task, let's understand what Docker is.
-Docker is a popular open-source software that uses operating-system-level virtualization to run applications in isolated environments called containers. Docker containers are an extension of OS containers. Docker supports both Linux and Windows containers. It is possible to use Docker with Linux containers on Windows and MacOS systems thanks to virtualization techniques (information taken from [wikipedia](https://it.wikipedia.org/wiki/Docker). 
+Docker is a popular open-source software that uses operating-system-level virtualization to run applications in isolated environments called containers. Docker containers are an extension of OS containers. Docker supports both Linux and Windows containers. It is possible to use Docker with Linux containers on Windows and MacOS systems thanks to virtualization techniques (information taken from [wikipedia](https://it.wikipedia.org/wiki/Docker).\
 As we will see We will use Docker to install Almalinux 9 on Windows. 
 
 ### 1 INSTALL DOCKER
