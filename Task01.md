@@ -1,9 +1,9 @@
 # HOW TO INSTALL ALMALINUX 9 USING DOCKER (Windows)
 Author: Apolloni Vittorio.\
-Last Updated: march, 3, 2025.
+Last Updated: march, 4, 2025.
 __________________________________________________________________
 
-In your life, it might happen that you choose to follow a course on scientific computing, and the first task will be to write a Markdown on how to install AlmaLinux 9 using Docker. Don't worry, follow these instructions and you'll be set up in no time.
+In your life, it might happen that you choose to follow a course on scientific computing, and the first task will be to write a Markdown on how to install AlmaLinux 9 using Docker. Don't worry, follow these instructions and you'll be set up in no time. For those of you who are completelly new to these arguments i also leave a link for a Markdouwn guide on GitHub -> [link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
 
 ## Introduction
 Before continuing with the steps to complete the task, let's understand what Docker is.
