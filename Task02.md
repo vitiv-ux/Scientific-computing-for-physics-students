@@ -1,4 +1,4 @@
-## python soource  code
+## python source  code
 
 ```python
 import numpy as np;     #for arrays
