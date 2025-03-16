@@ -1,0 +1,77 @@
+```
+import numpy as np;     #for arrays
+import time;            #for  timer
+
+#............variable declaration...........#
+a = 3;
+arrayDim = 10;          #change for the array dimension (10, 10^6, 10^8)
+matDim = 10;            #matrix dimension: 10, 100, 10000
+xv = 0.1;
+yv = 7.1;
+check = 0;
+check2 = 0;
+
+#arrays
+x = np.empty(arrayDim);
+y = np.empty(arrayDim);
+d = np.empty(arrayDim);
+
+#matrices
+A = np.empty((matDim, matDim));
+B = np.empty((matDim, matDim));
+C = np.empty((matDim, matDim));
+D = np.empty((matDim, matDim));
+
+start = time.time();      #take the time
+
+# ====================================================================================================== #
+#...............filling the arrays............#
+for i in range(arrayDim) :
+    x[i] = xv;
+    y[i] = yv;
+    #d[i] = x[i] * a + y[i];
+    #x = np.append(x, xv);
+    #y = np.append(y, yv);
+
+
+#...............calculations...................#
+d = x*a + y;
+
+#...............check..........................#
+for i in range(len(d)): 
+    check += d[i];
+if round(check) == ((a*xv + yv)*arrayDim): print("the array is correct")
+else : print("you suck at coding");
+
+middle = time.time();     #take the time againg
+
+#print the time
+print(f"first time: {middle - start}");
+
+
+# ========================================================================================== #
+#filling matrices
+for i in range(matDim):
+    for j in range(matDim):
+        A[i][j] = a;
+        B[i][j] = yv;
+
+#...............calculations...................#
+#matrix product
+C = np.dot(A, B);
+#element by element product
+D = A * B;
+
+#...............check..........................#
+for i in range(matDim): 
+    for j in range(matDim):
+        check2 += D[i][j];
+if round(check2) == round((a * yv * pow(matDim, 2))) : print("the array is correct")
+else : print("you suck at coding");
+
+
+end = time.time();
+print(f"end time: {end - start}");
+```
+
+
