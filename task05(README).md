@@ -11,4 +11,4 @@ valid for all the three cases.
 # D TESTING
 For testing that the vector d is correct, after the sum i calculated the mean and the standard deviation knowing that the correct result should be respecivelly 0 and sqrt(2). In the first case i used 1000 elements 
 inside the arrays and the results were close but not exactly them. For higher values of N (100000) the output was a mean of 0.00-something and standard deviation 1.41-something. With these numbers i was confident. I 
-also tried to make a graph of d plotting the distribution but i'm missing the correct python library and the console gives me an error when i try to download it so i'm not sure how to proceed.  
+also tried to make a graph of d plotting the distribution. 
